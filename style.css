@@ -256,6 +256,11 @@ nav a:hover{
     line-height: 1.8;
     margin-left: 60px;
 }
+html,body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden;
+}
 @media (max-width: 768px){
     .hero{
         flex-direction: column;
@@ -287,6 +292,12 @@ nav a:hover{
         max-width: 100%;
         text-align: center;
     }
+}
+.footer-bottom{
+    padding: 20px;
+    text-align: center;
+    color: rgb(84, 52, 52);
+    font-size: 14px;
 }
 @keyframes show{
       from{
